@@ -1,0 +1,18 @@
+FILES: hamming.py
+WRITER: Roy Levy
+DESCRIPTION: This file get an user input of hamming code and check if it has errors it write the parity bit with
+             the error.
+EXAMPLES:
+1. example of user code with no error:
+    input: 10101010000
+    output:
+    user input of hamming code was: 	 10101010000
+    The code have no errors.
+    	 Good job!
+2. example of user code with 1 error:
+    input: 00111010000
+    output:
+    user input of hamming code was: 	 00111010000
+    In index: 1 expected parity bit was: 1 but founded: 0
+    In index: 4 expected parity bit was: 0 but founded: 1
+    Total errors founded: 2
